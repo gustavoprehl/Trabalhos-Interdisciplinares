@@ -1,0 +1,194 @@
+.capa{
+    z-index: -10;
+}
+.profile-pic {
+    position: absolute;
+    bottom: 250px; 
+    left: 450px; 
+    border-radius: 40px;
+    border: solid 8px #04c6f7c0;
+}
+
+@media (max-width: 768px) {
+    .mt-4 {
+        margin-top: 20px !important;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    position: relative;
+}
+
+.overflow-auto {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.search-input {
+    border: solid 1px white;
+    color: white;
+    border-radius: 24px;
+    height: 100%;
+}
+
+.search-input:focus {
+    color: white;
+}
+
+.search-input::placeholder {
+    font-size: 20px;
+    color: white;
+}
+
+.header{
+    background-color: #0F0F33;
+}
+
+body {
+    overflow-x: hidden;
+}
+  
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #0F0F33;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.side-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+  
+.side-menu a:hover {
+    color: #f1f1f1;
+}
+  
+.side-menu .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+}
+  
+#menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+html,
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 500%;
+    object-fit: cover;
+}
+
+.title-swipper{
+    font-weight: bold;
+    padding-left: 72px;
+    margin-bottom: 24px;
+}
+
+.event-section-content {
+    color: #333; /* cor do texto */
+    font-size: 16px; /* tamanho da fonte */
+    line-height: 1.6; /* altura da linha */
+}
+
+
+#about, #reviews, #lineup {
+    margin-top: 20px;
+}
+
+/* Estilos para comentários e avaliações */
+#comment-section {
+    margin-top: 20px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.rating {
+    font-size: 30px; /* Tamanho das estrelas */
+}
+
+.star {
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+    color: #ccc; /* Cor padrão das estrelas */
+}
+
+.star.active {
+    color: #ffcc00; /* Cor das estrelas ativas (quando clicadas) */
+}
+
+
+.artist {
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.artist img {
+    width: 200px; /* Largura fixa para todas as imagens */
+    height: 200px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Garante que a imagem cubra a área especificada sem distorção */
+    border-radius: 50%; /* Borda arredondada para a imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
+.carousel-item img {
+    width: 100%; /* Largura de 100% para ocupar todo o espaço do contêiner */
+    height: 400px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Garante que a imagem cubra a área especificada sem distorção */
+}

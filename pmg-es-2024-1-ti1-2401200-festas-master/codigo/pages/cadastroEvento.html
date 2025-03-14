@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/registroevento.css">
+    <title>Registro de Evento</title>
+    <style>
+        h1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;    
+        -webkit-text-fill-color: white;
+        text-align: center;
+        width: 101vw; height: 3vh; background-color: #29346F;
+        border-left:none; border-right:none; border-style:solid;
+        border-color: black;
+        padding: 2.3vw; margin: -1vw;
+        }
+    </style>
+    <h1> Party club</h1>
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            <form action="#">
+                <div id="form-header">
+                </div>
+                    <div id="input-group">
+
+                    <div id="tittle">
+                        <h2>Compartilhe seu evento aqui!</h2>
+                    </div>
+
+                    <div class="input-nome">
+                        <label for="Nome">Nome do Evento:</label>
+                        <input id="Nome-do-evento" type="text" name="Nome-do-evento" placeholder="digite o nome do seu evento" required>
+                    </div>
+                    <br>
+
+                    <div class="input-empresa">
+                        <label for="Empresa">Empresa:</label>
+                        <input id="Empresa" type="text" name="Empresa" placeholder="digite o nome da Empresa">
+                    </div>
+                    <br>
+
+                <div id="tentativa">
+                    <div class="input-datainicio">
+                        <label for="Data-inicio">Data de inicio:</label>
+                        <input id="Data-inicio" type="date" name="Data inicio" placeholder="Data inicio" required>
+                    </div>
+
+                    <div class="input-datafim">
+                        <label for="Data-fim">Data fim:</label>
+                        <input id="Data-fim" type="date" name="Data fim" placeholder="Data fim" required>
+                    </div>
+
+                    <div class="input-status">
+                        <label for="Status">Status:</label>
+                        <input id="Status" type="text" name="Status" placeholder="" required>
+                    </div>
+                </div>
+
+                    <div id="input-descricao">
+                        <label for="descricao">Descrição</label>
+                        <input id="descricao" type="text" name="descricao" placeholder="Fale sobre o evento">
+                    </div>
+
+                    <br>
+                    <div id="input-Foto">
+                        <label for=""></label>
+                        <input type="file">
+                    </div>
+                    <br>
+    
+                <div id="botao">
+                    <div id="input-Salvar">
+                        <button><a href="#">Salvar</a></button>
+                    </div>
+    
+                    <div id="input-Fechar">
+                        <button><a href="#">Fechar</a></button> 
+                    </div>
+                    </div>
+            </div>
+            </form>
+            <br>
+        </div>
+    </div>
+</body>
+</html>

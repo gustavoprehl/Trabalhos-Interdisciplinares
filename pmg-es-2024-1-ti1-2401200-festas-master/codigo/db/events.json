@@ -1,0 +1,556 @@
+[
+  {
+    "name": "So track boa",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "fire",
+    "about": "Prepare-se para uma noite inesquecível com os melhores DJs do momento. So track boa traz energia pura e muita música eletrônica para animar a galera.",
+    "coverPhoto": {
+      "name": "Capa",
+      "url": "/assets/eventsCover/sotrackboa.jpg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Guilherme",
+        "comment": "sdfsadf"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Vintage Culture",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/lukas.jpeg"
+        }
+      },
+      {
+        "name": "WS da Igrejinha",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/ws.jpg"
+        }
+      },
+      {
+        "name": "The weekend",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/weekend.jpeg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "CIA",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "best",
+    "about": "Venha se divertir na CIA, o evento que reúne os melhores talentos da música atual. Prepare-se para uma noite de muito ritmo e animação.",
+    "coverPhoto": {
+      "name": "capa",
+      "url": "/assets/eventsCover/cia.png"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "WS da Igrejinha",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/ws.jpg"
+        }
+      },
+      {
+        "name": "Dennis",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/dennis.jpg"
+        }
+      },
+      {
+        "name": "ken",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/ken.jpeg"
+        }
+      },
+      {
+        "name": "Mc Pedrinho",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/pedrinho.jpg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Tomorrow Land",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "fire",
+    "about": "Tomorrow Land está de volta, trazendo a magia e a grandiosidade que você já conhece. Uma festa imperdível com os melhores DJs do mundo.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/tomorrowland.jpg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Lukas",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/lukas.jpeg"
+        }
+      },
+      {
+        "name": "Ilusionaize",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/illusionize.jpg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Mac life",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "fire",
+    "about": "Mac life traz o melhor do hip-hop e rap, com performances eletrizantes. Venha curtir uma noite de batidas pesadas e rimas afiadas.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/maclife.jpg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Drake",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/drake.jpeg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Mahal",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "fire",
+    "about": "Mahal promete uma noite de muita diversão e música boa. Com artistas renomados, é o evento perfeito para quem quer dançar e se divertir.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/mahal.jpeg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Vaqueiro",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/vaqueiro.jpg"
+        }
+      },
+      {
+        "name": "Mc Pedrinho",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/pedrinho.jpg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Planeta Brasil",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "best",
+    "about": "Planeta Brasil é o festival que celebra a diversidade musical. Com um lineup incrível, prepare-se para uma experiência inesquecível.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/planeta-brasil.webp"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "The weekend",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/weekend.jpeg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Rap Game",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "best",
+    "about": "Rap Game é o evento que reúne os maiores nomes do rap nacional. Prepare-se para uma noite de muita rima e batida.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/rap-game.png"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "WS da Igrejinha",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/ws.jpg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Festival Sensacional",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "best",
+    "about": "O Festival Sensacional é uma celebração da música e cultura. Com atrações de peso, promete ser um dos melhores eventos do ano.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/sensacional.jpg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Djonga",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/djonga.jpg"
+        }
+      },
+      {
+        "name": "50 cent",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/50.jpeg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Sundance",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "fire",
+    "about": "Sundance é o evento perfeito para quem ama música eletrônica. Com DJs internacionais e uma produção impecável, promete ser inesquecível.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/sundance.jpg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Mochakk",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/mochakk.jpg"
+        }
+      },
+      {
+        "name": "CamelPhat",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/camelphat.jpg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Ultra",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "best",
+    "about": "Ultra é um dos festivais de música eletrônica mais famosos do mundo. Com um lineup estelar, prepare-se para uma experiência sonora única.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/ultra.jpeg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Rufus du sol",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/rufus.jpg"
+        }
+      },
+      {
+        "name": "Vaqueiro",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/vaqueiro.jpg"
+        }
+      },
+      {
+        "name": "Vintage Culture",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/lukas.jpeg"
+        }
+      }
+    ],
+    "average": 3
+  },
+  {
+    "name": "Festival de Verão",
+    "date": "04/08/2024",
+    "time": "16:00 às 05:00",
+    "category": "best",
+    "about": "O Festival de Verão celebra a estação mais quente do ano com muita música e diversão. Não perca essa festa incrível com grandes artistas.",
+    "coverPhoto": {
+      "name": "test",
+      "url": "/assets/eventsCover/verao.jpg"
+    },
+    "profilePhoto": {
+      "name": "test",
+      "url": "/test/test/test"
+    },
+    "reviews": [
+      {
+        "userName": "Gustavo",
+        "comment": "uma merda esse evento"
+      },
+      {
+        "userName": "Gui",
+        "comment": "uma merda esse evento"
+      }
+    ],
+    "photos": [
+      {
+        "name": "test",
+        "url": "/test/test/test"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Matue",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/matue.webp"
+        }
+      },
+      {
+        "name": "50 Cent",
+        "style": null,
+        "profilePhoto": {
+          "alt": "",
+          "url": "/assets/artists/50.jpeg"
+        }
+      }
+    ],
+    "average": 3
+  }
+]

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#form{
+    margin-top: 2vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+#tittle {
+    width: 100%;
+    height: 10vh;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-group{
+   
+    margin-bottom: 0vh;
+    display: flex;
+    background-color:antiquewhite;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 99.9vw;
+    height: 92vh;
+    align-items:center;
+}
+#Nome-do-evento{
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+#Empresa{
+    
+    text-align: center;
+    width: 20vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+#tentativa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+    justify-content: space-between;
+}
+#Data-inicio{
+    width: 6vw;
+    height: 3vh;
+    display: flex;
+}
+#Data-fim{
+    width: 6vw;
+    height: 3vh;
+    display: flex;
+}
+
+#Status{
+    width: 6vw;
+    height: 3vh;
+    display: flex;
+}
+
+#descricao{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 35vw;
+    height: 9vh;
+}
+#descricao a{
+    justify-content: center;
+    align-items: center;
+}
+
+#botao{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 2vh;
+    width: 8vw;
+}
+
+#input-Foto button {
+    background-color: #2B45D6;
+    font-size: medium;
+    border-radius: 5px;
+    width: 15vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#input-Foto button:hover{
+    background-color: blue;
+}
+#input-Foto button a{
+    text-decoration: none;
+    color: white;
+}
+
+#input-Salvar{
+    display: flex;
+    justify-content: center;
+
+}
+#input-Salvar button{
+    font-size:medium;
+    margin-bottom: 3;
+    border-bottom: green;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #76F97B;
+    border-radius: 5px;
+}
+#input-Salvar button:hover{
+    background-color: greenyellow;
+}
+
+#input-Fechar button{
+    font-size: medium;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    background-color: #F56464;
+    border-radius: 5px;
+}
+#input-Fechar button:hover{
+    background-color: red;
+}
+

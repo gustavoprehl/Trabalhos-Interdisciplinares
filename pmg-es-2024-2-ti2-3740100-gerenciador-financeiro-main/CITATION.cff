@@ -1,0 +1,33 @@
+message: Please cite this software using these metadata.
+title: Pote Manager
+authors:
+  - family-names: Azi Prehl Gama
+    given-names: Gustavo
+  - family-names: Rodrigues da Mata
+    given-names: Fernando
+  - family-names: Azevedo Araújo
+    given-names: Mateus
+  - family-names: Oliveira Ribeiro
+    given-names: Rafaela
+
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Hanne Soares de Andrade
+    given-names: Michelle 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Marques Alves Silva
+    given-names: Alexandre
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Boechat Seufitelli
+    given-names: Danilo
+
+keywords: 
+  - Finanças
+  - Planejamento Financeiro
+  - Controle de despesas
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-2-ti2-3740100-gerenciador-financeiro
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-12-16

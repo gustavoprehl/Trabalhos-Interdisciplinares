@@ -1,0 +1,31 @@
+cff-version: 1.0.1
+message: Software made to facilitate finding entertainment in cities.
+title: PartyClub
+authors:
+  - family-names: Costa
+    given-names: Guilherme
+  - family-names: Santos 
+    given-names: Wendy
+  - family-names:  Andrade
+    given-names: Lucas
+  - family-names: Azzi
+    given-names: Gustavo
+  - family-names: Gomes
+    given-names: Breno
+  - family-names: Barcelos
+    given-names: Heitor
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Pereira
+    given-names: Daniel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Silva
+    given-names: Luiz
+keywords:
+  - party
+  - entertainment
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401200-festas
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14

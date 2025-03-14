@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Gustavo Prehl",
+    "bio": "Só sei que nada sei",
+    "location": "Belo Horizonte, Brasil",
+    "followers": 1000,
+    "following": 500,
+    "profilePhoto": "https://media.licdn.com/dms/image/C5603AQF6fMRFoMIr-w/profile-displayphoto-shrink_200_200/0/1649639389911?e=2147483647&v=beta&t=6pr6QDvJRx1CCsUtz2B-frUGHBt6bOukUy6nIPcmol4",
+    "coverPhoto": "https://www.ucs.br/site/static/uploads/imagens/capa_engenharia_software.png",
+    "email": "gustavo@gustavo.com",
+    "password": "123456"
+  },
+  {
+    "name": "Guilherme Costa",
+    "bio": "teste",
+    "location": "Belo Horizonte, Brasil",
+    "followers": 1000,
+    "following": 500,
+    "profilePhoto": "https://media.licdn.com/dms/image/C5603AQF6fMRFoMIr-w/profile-displayphoto-shrink_200_200/0/1649639389911?e=2147483647&v=beta&t=6pr6QDvJRx1CCsUtz2B-frUGHBt6bOukUy6nIPcmol4",
+    "coverPhoto": "https://www.ucs.br/site/static/uploads/imagens/capa_engenharia_software.png",
+    "email": "gui@teste.com",
+    "password": "123456"
+  },
+  {
+    "name": "Lara",
+    "bio": "Só sei que nada sei",
+    "location": "Belo Horizonte, Brasil",
+    "followers": 1000,
+    "following": 500,
+    "profilePhoto": "https://media.licdn.com/dms/image/C5603AQF6fMRFoMIr-w/profile-displayphoto-shrink_200_200/0/1649639389911?e=2147483647&v=beta&t=6pr6QDvJRx1CCsUtz2B-frUGHBt6bOukUy6nIPcmol4",
+    "coverPhoto": "https://www.ucs.br/site/static/uploads/imagens/capa_engenharia_software.png",
+    "email": "lara@lara.com",
+    "password": "123456"
+  },
+  {
+    "bio": "",
+    "location": "",
+    "followers": 0,
+    "following": 0,
+    "profilePhoto": "https://media.licdn.com/dms/image/C5603AQF6fMRFoMIr-w/profile-displayphoto-shrink_200_200/0/1649639389911?e=2147483647&v=beta&t=6pr6QDvJRx1CCsUtz2B-frUGHBt6bOukUy6nIPcmol4",
+    "coverPhoto": "https://www.ucs.br/site/static/uploads/imagens/capa_engenharia_software.png",
+    "email": "guilhermehcosta98@gmail.com",
+    "password": "teste",
+    "product": "yes",
+    "gender": "female"
+  }
+]
