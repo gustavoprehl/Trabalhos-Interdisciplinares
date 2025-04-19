@@ -72,6 +72,7 @@ public class User {
     @Column(name= "notificacoesLidas", nullable = true)
     private List<Long> notificacoesLidas = new ArrayList<Long>();
 
+    //code review
     public Set<ProfileEnum> getProfiles(){
         return this.profiles.stream().map(x -> ProfileEnum.toEnum(x)).collect(Collectors.toSet());
     }
