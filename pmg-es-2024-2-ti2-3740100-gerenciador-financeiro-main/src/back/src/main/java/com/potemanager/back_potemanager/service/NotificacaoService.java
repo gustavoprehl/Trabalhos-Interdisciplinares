@@ -30,7 +30,7 @@ public class NotificacaoService {
         UserSpringSecurity userSpringSecurity = UserService.authenticated();
         if (!Objects.nonNull(userSpringSecurity) || !id.equals(userSpringSecurity.getId()))
             throw new AuthorizationException("Acesso negado!");
-
+        // carrega todas as notificações da base
         return this.notificacaoRepository.findAll().stream()
                 .filter(notificacao -> notificacao.getUser().getId().equals(id))
                 .toArray(Notificacao[]::new);  // Corrigido aqui, convertendo para Notificacao[]
