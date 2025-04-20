@@ -71,7 +71,6 @@ public class User {
 
     @ElementCollection()
     @Column(name= "notificacoesLidas", nullable = true)
-    // criar método pra não acessar diretamente
     private List<Long> notificacoesLidas = new ArrayList<Long>();
     
     public Set<ProfileEnum> getProfiles(){

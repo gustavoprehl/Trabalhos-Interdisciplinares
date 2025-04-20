@@ -81,6 +81,7 @@ public class UserService {
 
         User newObj = findById(userSpringSecurity.getId());
         List<Long> newObjNotificacoesLidas = newObj.getNotificacoesLidas();
+        // verificar se id já existe
         newObjNotificacoesLidas.addAll(obj.getNotificacoes());
         newObj.setNotificacoesLidas(newObjNotificacoesLidas);
 
