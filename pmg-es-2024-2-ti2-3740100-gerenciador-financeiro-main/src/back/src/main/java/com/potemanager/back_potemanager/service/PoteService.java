@@ -73,7 +73,7 @@ public class PoteService {
         this.notificacaoService.create(notificao);
         return obj;
     }
-
+    
     @Transactional
     public Pote update(Pote obj){
         Pote newObj = findById(obj.getId());
@@ -84,6 +84,7 @@ public class PoteService {
         newObj.setValorMeta(obj.getValorMeta());
         newObj.setDataLimite(obj.getDataLimite());
         newObj.setNomePote(obj.getNomePote());
+        // duplicado
         newObj.setValorMeta(obj.getValorMeta());
 
         return this.poteRepository.save(newObj);

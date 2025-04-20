@@ -30,6 +30,7 @@ public class NotificacaoController {
     private NotificacaoService notificacaoService;
 
     @GetMapping("/user")
+    // mudar nome, não ta buscando uma notificação por id
     public ResponseEntity<List<Notificacao>> findById(){
         UserSpringSecurity userSpringSecurity = UserService.authenticated();
         if(Objects.isNull(userSpringSecurity))

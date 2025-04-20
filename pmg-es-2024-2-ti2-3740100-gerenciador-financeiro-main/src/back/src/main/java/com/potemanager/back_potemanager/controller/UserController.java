@@ -44,10 +44,12 @@ public class UserController {
         User newUser = this.userService.create(user);
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}").buildAndExpand(newUser.getId()).toUri();
+        // boa pratica
         return ResponseEntity.created(uri).build();
     }
 
     @PutMapping("/{id}")
+    // validação de login
     public ResponseEntity<Void> update(@Valid @RequestBody UserUpdateDTO obj, @PathVariable Long id) {
         obj.setId(id);
         User user = this.userService.fromDTO(obj);

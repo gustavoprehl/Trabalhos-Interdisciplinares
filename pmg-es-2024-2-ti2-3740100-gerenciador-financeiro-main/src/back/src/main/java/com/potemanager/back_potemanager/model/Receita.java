@@ -17,6 +17,7 @@ public class Receita {
     private Long id;
 
     @NotNull
+    // relacionar a entidade
     private Long poteId;
 
     @NotNull
@@ -31,5 +32,6 @@ public class Receita {
     @NotNull
     private String descricao;
 
+    // @CreationTimestamp
     private LocalDateTime criadoEm = LocalDateTime.now();
 }

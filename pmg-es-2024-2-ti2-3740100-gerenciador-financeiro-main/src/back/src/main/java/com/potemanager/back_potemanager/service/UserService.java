@@ -54,7 +54,7 @@ public class UserService {
         obj = this.userRepository.save(obj);
         return obj;
     }
-
+    // code review
     @Transactional
     public User update(User obj) {
         User newObj = findById(obj.getId());
@@ -71,7 +71,7 @@ public class UserService {
             throw new DataBindingViolationException("Não é possível excluir pois há entidades relacionadas!");
         }
     }
-
+    // code review
     public void lerNotificacoes(UserLerNotificacoesDTO obj) {
         UserSpringSecurity userSpringSecurity = authenticated();
         if (!Objects.nonNull(userSpringSecurity)) {
@@ -86,6 +86,7 @@ public class UserService {
         this.userRepository.save(newObj);
     }
 
+    // code review
     public static UserSpringSecurity authenticated() {
         try {
             return (UserSpringSecurity) SecurityContextHolder.getContext().getAuthentication().getPrincipal();

@@ -28,7 +28,7 @@ public class ReceitaService {
 
     @Autowired
     private NotificacaoService notificacaoService;
-
+    // code review
     public Receita buscarPorId(Long id) {
         UserSpringSecurity userSpringSecurity = UserService.authenticated();
         if(Objects.isNull(userSpringSecurity))

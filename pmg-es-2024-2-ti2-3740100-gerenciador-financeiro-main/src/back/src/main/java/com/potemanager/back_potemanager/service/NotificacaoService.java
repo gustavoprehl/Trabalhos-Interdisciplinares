@@ -25,6 +25,7 @@ public class NotificacaoService {
         return obj;
     }
 
+    // code review
     public Notificacao[] findByUserId(Long id) {
         UserSpringSecurity userSpringSecurity = UserService.authenticated();
         if (!Objects.nonNull(userSpringSecurity) || !id.equals(userSpringSecurity.getId()))
