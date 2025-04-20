@@ -13,6 +13,7 @@ public class UserCreateDTO {
 
     @NotBlank
     @Size(min = 2, max = 50)
+    // @Email(message = "Email inválido")
     private String email;
 
     @NotBlank

@@ -60,6 +60,7 @@ public class User {
 
     @OneToMany(mappedBy = "user")
     @JsonProperty(access = Access.WRITE_ONLY)
+    // renomear
     private List<Pote> pote = new ArrayList<Pote>();
 
     @ElementCollection(fetch = FetchType.EAGER)
@@ -71,7 +72,7 @@ public class User {
     @ElementCollection()
     @Column(name= "notificacoesLidas", nullable = true)
     private List<Long> notificacoesLidas = new ArrayList<Long>();
-
+    
     public Set<ProfileEnum> getProfiles(){
         return this.profiles.stream().map(x -> ProfileEnum.toEnum(x)).collect(Collectors.toSet());
     }

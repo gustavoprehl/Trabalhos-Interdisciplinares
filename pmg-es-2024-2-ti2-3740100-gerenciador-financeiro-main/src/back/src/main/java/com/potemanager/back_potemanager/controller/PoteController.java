@@ -47,6 +47,7 @@ public class PoteController {
     @Validated
     public ResponseEntity<Pote> create(@Valid @RequestBody Pote obj){
         Pote pote = this.poteService.create(obj);
+        // ResponseEntity.created(uri).body(pote);
         return ResponseEntity.ok(pote);
     }
 

@@ -44,7 +44,7 @@ public class ReceitaController {
         List<Receita> receitas = this.receitaService.listarTodas();
         return ResponseEntity.ok(receitas);
     }
-
+    // acessa o pote?
     @GetMapping("/pote/{id}")
     public ResponseEntity<Receita[]> findByPote(@PathVariable Long id) {
         Receita[] receitas = this.receitaService.buscarPorPoteId(id);

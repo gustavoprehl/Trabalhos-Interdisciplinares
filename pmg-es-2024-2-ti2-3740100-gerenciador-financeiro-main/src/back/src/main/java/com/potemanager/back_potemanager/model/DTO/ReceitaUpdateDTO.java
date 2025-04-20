@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class ReceitaUpdateDTO {
     @NotNull
+    // não é ideal para "double"
     @Min(1)
     private Double valor;
 

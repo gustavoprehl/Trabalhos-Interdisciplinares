@@ -13,5 +13,6 @@ import java.util.List;
 public class UserLerNotificacoesDTO {
 
     @NotEmpty
+    // @NotNull(message = "A lista de notificações não pode ser nula")
     private List<Long> notificacoes;
 }
