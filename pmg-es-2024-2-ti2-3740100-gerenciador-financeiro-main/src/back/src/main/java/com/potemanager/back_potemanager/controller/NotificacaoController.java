@@ -31,6 +31,7 @@ public class NotificacaoController {
 
     @GetMapping("/user")
     public ResponseEntity<List<Notificacao>> findById(){
+        // Lógica de segurança não deveria estar aqui, mas sim na camada security.
         UserSpringSecurity userSpringSecurity = UserService.authenticated();
         if(Objects.isNull(userSpringSecurity))
             throw new AuthorizationException("Acesso negado!");
@@ -38,6 +39,7 @@ public class NotificacaoController {
         User user = userService.findById(userSpringSecurity.getId());
         List<Notificacao> notificacoes = Arrays.asList(this.notificacaoService.findByUserId(userSpringSecurity.getId()));
 
+        // Deveria ter utilizado um DTO, ao invés de uma entidade diretamente.
         List<Notificacao> notificacoesFiltradas = notificacoes.stream()
                 .filter(notificacao -> !user.getNotificacoesLidas().contains(notificacao.getId()))
                 .collect(Collectors.toList());

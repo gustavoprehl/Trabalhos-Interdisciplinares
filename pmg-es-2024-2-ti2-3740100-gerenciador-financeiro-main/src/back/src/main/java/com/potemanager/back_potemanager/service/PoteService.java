@@ -31,6 +31,8 @@ public class PoteService {
 
     public Pote findById(Long id){
 
+        // Poderia utilizar Optional no retorno de findById para evitar uso explícito de null.
+        // Exceção genérica RuntimeException não é uma boa prática. Ideal criar exceção personalizada (ex: PoteNotFoundException).
         Pote pote = this.poteRepository.findById(id).orElseThrow(() -> new RuntimeException(
             "Pote não encontrado! Id: " + id + ", Tipo: " + Pote.class.getName()
         ));

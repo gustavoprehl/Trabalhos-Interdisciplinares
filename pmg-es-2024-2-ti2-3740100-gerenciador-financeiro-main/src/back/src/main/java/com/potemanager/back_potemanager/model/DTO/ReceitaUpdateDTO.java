@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+// Poderia ter utilizado um record ao invés de uma classe para os DTOs.
 public class ReceitaUpdateDTO {
     @NotNull
     @Min(1)

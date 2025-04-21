@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class UserUpdateDTO {
 
+    // Não há verificação para o id, porém, ele é obrigatório para updates.
     private Long id;
 
     @NotBlank
