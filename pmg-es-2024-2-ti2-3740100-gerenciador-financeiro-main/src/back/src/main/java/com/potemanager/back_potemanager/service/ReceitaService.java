@@ -35,6 +35,7 @@ public class ReceitaService {
 
             throw new AuthorizationException("Acesso negado!");
 
+        // O uso dessa recursividade não faz sentido; além disso, não há condição de parada, o que pode levar a um loop infinito.
         Receita receita = buscarPorId(id);
 
         if(!this.poteService.findById(receita.getPoteId()).getUser().getId().equals(userSpringSecurity.getId())) {
@@ -51,6 +52,8 @@ public class ReceitaService {
 
     @Transactional
     public Receita criarReceita(Receita receita) {
+        // Falta validação se o receita.getPoteId() pertence ao usuário logado, o que permite potencial inserção em potes de outros usuários.
+        // Utilizar DTO remove a necessidade de chamar setId, tornando desnecessário chamar mais de um método dentro de criarReceita.
         receita.setId(null);
 
         return this.receitaRepository.save(receita);
@@ -101,6 +104,7 @@ public class ReceitaService {
         }
     }
 
+    // Uso de lista ao invés de array, pois é mais flexível e fácil de manipular.
     public Receita[] buscarPorPoteId(Long id) {
         return this.receitaRepository.findAll().stream().filter((receita -> Objects.equals(receita.getPoteId(), id))).toArray(Receita[]::new);
     }

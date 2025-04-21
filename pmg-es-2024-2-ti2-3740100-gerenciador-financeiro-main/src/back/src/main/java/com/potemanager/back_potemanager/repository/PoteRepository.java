@@ -9,6 +9,7 @@ import com.potemanager.back_potemanager.model.Pote;
 import com.potemanager.back_potemanager.model.Projection.PoteProjection;
 
 @Repository
+// Seria interessante a utilização do CriteriaBuilder para consultas mais complexas.
 public interface PoteRepository extends JpaRepository<Pote, Long> {
 
     List<PoteProjection> findByUser_Id(Long id);

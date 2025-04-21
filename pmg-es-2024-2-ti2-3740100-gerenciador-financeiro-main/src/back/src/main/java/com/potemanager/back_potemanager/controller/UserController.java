@@ -41,6 +41,7 @@ public class UserController {
     @PostMapping
     public ResponseEntity<Void> create(@Valid @RequestBody UserCreateDTO obj) {
         User user = this.userService.fromDTO(obj);
+        // Interpreto que essa lógica de busca e criação deveria estar na camada service, e não no controller.
         User newUser = this.userService.create(user);
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}").buildAndExpand(newUser.getId()).toUri();
